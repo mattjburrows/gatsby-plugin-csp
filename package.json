@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-plugin-csp",
+  "version": "1.0.0",
+  "description": "A Gatsby plugin to add Content Security Policy (CSP) hashes for inline styles and scripts on your Gatsby site",
+  "main": "gatsby-ssr.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "content-security-policy",
+    "csp",
+    "security"
+  ],
+  "author": "<mattjburrows@gmail.com> Matt Burrows",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.flatten": "^4.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
